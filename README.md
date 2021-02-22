@@ -6,7 +6,7 @@ Automate lesion localization using Grad-CAM as XAI, which is also known as weakl
 
 Hwang, Yunseob, et al. "Improved classification and localization approach to small bowel capsule endoscopy using convolutional neural network." Digestive Endoscopy (2020).
 
-# Small Bowel Capsule Endocsopy Images by Small Bowel Lesions
+# Small Bowel Capsule Endocsopy Images
 
 ![SBCE](./images/SBCE_images_by_lesion.jpg)
 
