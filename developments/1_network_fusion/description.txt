@@ -1,0 +1,34 @@
+CORE: sm_core (박충현, 이한희) -> 구별이 쉬운 set 선별
+ENTIRE: sm (박충현)    -> total augmentation 하고 train test로 나눔 
+ENTIRE: sm_v2 (김태완) -> train test 먼저 나누고 preprocessing -> testset에서 augmentation 덜됨
+ENTIRE(TOTAL): sm -> train, test 안 나누고 전체 학습
+DIFF: sm_diff (황윤섭) -> coreset을 제외한 나머지 구별이 어려울 것이라 생각되는 dataset 
+----------------------------------------------------------------------------------------  x8 (flip up-down and rotation)
+X160: sm_x160 (황윤섭) -> blur, HSV control 등을 추가하여 기존 8배에서 160배로 증강 
+                       -> train test patient 기준으로 나눔 patient 중복 없음 
+                       -> Nx40(fbsv), Nx8(fb)은 negative 갯수가 많아서 augmentation을 작게 줬을때 
+
+X160_v2: sm_x160_v2 (황윤섭)   -> blur, HSV control 등을 추가하여 기존 8배에서 160배로 증강 
+                               -> train test image 기준으로 나눔 image 중복없음
+
+Ensemble CNN 평가
+
+기존
+  CORE - 5-fold cross validation
+
+other cases 
+  model        ||   training               ||   testing 
+  ENTIRE rgb   ||   sm(rgb) - train        ||   sm(rgb) - test  
+  CORE rgb     ||   sm_core(rgb) - train   ||   sm_core(rgb) - test
+  CORE rgb     ||   sm_core(rgb) - train   ||   sm(rgb) - test
+  CORE rgb     ||   sm_core(rgb) - train   ||   sm_v2(rgb) - test
+  ENTIRE2      ||   sm_v2 - train          ||   sm_v2 - test
+  N1A9         ||   sm_v2 - train          ||   sm_v2 - test
+  N3A7         ||   sm - train             ||   sm - test
+  ENTIRE ES2   ||   sm - train             ||   sm - test
+  ENTIRE BN    ||   sm - train             ||   not yet..
+  DIFF         ||   sm_diff - train        ||   sm_core - total
+  X160 NX40    ||   sm_x160 - train (Nx40) ||   sm_x160 - test (Nx8)
+  X160 NX8     ||   sm_x160 - train (Nx8)  ||   sm_x160 - test (Nx8)
+  X160_v2      ||   sm_x160_v2 - train     ||   sm_x160 - test (c_-_-_-) 
+  ENTIRE(TOTAL)||   sm(total) - train      ||   0121 validation set 
