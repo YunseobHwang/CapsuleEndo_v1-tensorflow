@@ -33,13 +33,39 @@ Hwang, Yunseob, et al. "Improved classification and localization approach to sma
 
 ### Method
 
-![NET_FUS](./images/network_fusion.jpg)
-![CAM_FUS](./images/CAM_fusion.jpg)
+<p align="center">
+     <b> Network Fusion on Decision Level</b> <br>
+     <img alt="NET_FUS" src="./images/network_fusion.jpg"
+          width=80% />
+</p>
+<br>
+
+<p align="center">
+     <b> Probability-based CAM Fusion </b> <br>
+     <img alt="CAM_FUS" src="./images/CAM_fusion.jpg"
+          width=80% />
+</p>
+<br>
 
 ### Results
 
-![ROC](./images/ROC_curves.jpg)
+<p align="center">
+     <b> ROC curves</b> <br>
+     <img alt="ROC" src="./images/ROC_curves.jpg"
+          width=80% />
+</p>
+<br>
 
-![GradCAM](./images/GradCAM_comparison.jpg)
+<p align="center">
+     <b> Localization Ability Comparison (Reliability of Decision)</b> <br>
+     <img alt="GradCAM" src="./images/GradCAM_comparison.jpg"
+          width=80% />
+</p>
+<br>
 
-![Feature_V](./images/feature_visualization_t-SNE.jpg)
+<p align=center">
+     <b> Feature Visualization</b> <br>
+     <img alt="Feature_V" src="./images/feature_visualization_t-SNE.jpg"
+          width=80% />
+</p>
+<br>
