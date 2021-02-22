@@ -64,7 +64,7 @@ Hwang, Yunseob, et al. "Improved classification and localization approach to sma
 <br>
 
 <p align="center">
-     <b> Feature Visualization</b> <br>
+     <b> Feature Visualization using t-SNE</b> <br>
      <img alt="Feature_V" src="./images/feature_visualization_t-SNE.jpg"
           width=80% />
 </p>
