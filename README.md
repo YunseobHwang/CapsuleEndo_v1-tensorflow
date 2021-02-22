@@ -18,7 +18,7 @@ Hwang, Yunseob, et al. "Improved classification and localization approach to sma
 ## Network Fusion
 
 - To boost sensitivity
-- To enable AI (CNN) localization ability using CAM 
+- To achieve better localization ability through a visual explanation for AI's decision >> Make it more reliable 
 
 ### Method
 
