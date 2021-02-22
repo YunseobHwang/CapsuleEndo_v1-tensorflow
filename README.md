@@ -1,4 +1,4 @@
-# CapsuleEndo_v1-tensorflow
+# Introduction
 
 CNN-based small bowel lesion classification and XAI-based localization
 
@@ -6,11 +6,11 @@ Automate lesion localization using Grad-CAM as XAI, which is also known as weakl
 
 Hwang, Yunseob, et al. "Improved classification and localization approach to small bowel capsule endoscopy using convolutional neural network." Digestive Endoscopy (2020).
 
-## Small Bowel Capsule Endocsopy Images by Small Bowel Lesions
+# Small Bowel Capsule Endocsopy Images by Small Bowel Lesions
 
 ![SBCE](./images/SBCE_images_by_lesion.jpg)
 
-## Data Preprocessing and Augmentation
+# Data Preprocessing and Augmentation
 
 <p align="center">
      <b> Preprocessing for SBCE images</b> <br>
@@ -26,12 +26,12 @@ Hwang, Yunseob, et al. "Improved classification and localization approach to sma
 </p>
 <br>
 
-## Network Fusion
+# Network Fusion
 
 - To boost sensitivity
 - To achieve better localization ability through a visual explanation for AI's decision >> Make it more reliable 
 
-### Method
+## Method
 
 <p align="center">
      <b> Network Fusion on Decision Level</b> <br>
@@ -47,7 +47,7 @@ Hwang, Yunseob, et al. "Improved classification and localization approach to sma
 </p>
 <br>
 
-### Results
+## Results
 
 <p align="center">
      <b> ROC curves</b> <br>
