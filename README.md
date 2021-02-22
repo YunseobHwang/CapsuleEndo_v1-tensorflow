@@ -1,6 +1,6 @@
 # CapsuleEndo_v1-tensorflow
 
-CNN-based classification and XAI-based localization
+CNN-based small bowel lesion classification and XAI-based localization
 
 Automate lesion localization using Grad-CAM as XAI, which is also known as weakly-supervised object localization 
 
