@@ -12,18 +12,15 @@ Hwang, Yunseob, et al. "Improved classification and localization approach to sma
 
 ## Data Preprocessing and Augmentation
 
-![SBCE_PRE](./images/preprocessing_for_SBCE_images.jpg)
-![SBCE_AUG](./images/flip_and_rotation_augmentation.jpg)
-
 <p align="center">
-     <b> Cifar-10 [32 x 32] (50K dataset)</b> <br>
+     <b> Preprocessing for SBCE images</b> <br>
      <img alt="SBCE_PRE" src="./images/preprocessing_for_SBCE_images.jpg"
           width=80% />
 </p>
 <br>
 
 <p align="center">
-     <b> Oxford-102 Flowers [256 x 256] (8K dataset)</b> <br>
+     <b> Flip and Rotation Augmentation</b> <br>
      <img alt="SBCE_AUG" src="./images/flip_and_rotation_augmentation.jpg"
           width=80% />
 </p>
