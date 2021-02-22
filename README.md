@@ -27,10 +27,7 @@ Hwang, Yunseob, et al. "Improved classification and localization approach to sma
 
 ### Results
 
-![ROC](./images/ROC_curves.jpg){: width="100" height="100"}
-<img src="./images/ROC_curves.jpg"  width="300" height="300">
-
-출처: https://cutemoomin.tistory.com/112 [무민은귀여워]
+![ROC](./images/ROC_curves.jpg)
 
 ![GradCAM](./images/GradCAM_comparison.jpg)
 
